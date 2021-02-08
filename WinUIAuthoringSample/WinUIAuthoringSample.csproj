@@ -1,8 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>net5.0-windows10.0.18362.0</TargetFramework>
-        <!--<TargetPlatformMinVersion>10.0.17134.0</TargetPlatformMinVersion>-->
-        <SupportedOSPlatform>Windows10.0.17134.0</SupportedOSPlatform>
+        <TargetPlatformMinVersion>10.0.17134.0</TargetPlatformMinVersion>
         <RootNamespace>WinUIAuthoringSample</RootNamespace>
         <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
         <Platforms>x64</Platforms>
