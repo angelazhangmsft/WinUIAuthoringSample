@@ -8,7 +8,15 @@
     xmlns:custom="using:WinUIAuthoringSample"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <!-- <custom:CustomStackPanel x:Name="myStackPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Button>Built-in</Button>
+        <custom:CustomButton x:Name="myButton" Click="myButton_Click" OverrideEntered="False">Custom</custom:CustomButton>
+        <custom:CustomButton>Built-in row 2</custom:CustomButton>
+        <custom:CustomButton>Custom row 2</custom:CustomButton>
+    </custom:CustomStackPanel> -->
+    <StackPanel x:Name="myStackPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
         <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
     </StackPanel>
+
+
 </Window>

@@ -16,7 +16,8 @@ namespace winrt::CppWinUIDesktop::implementation
     MainWindow::MainWindow()
     {
         InitializeComponent();
-        CustomButton c;
+        CustomButton c = CustomButton();
+        myStackPanel().Children().Append(c);
     }
 
     int32_t MainWindow::MyProperty()
